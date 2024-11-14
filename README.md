@@ -1,4 +1,4 @@
-#**Lumbar Spine Degenerative Classification** 🏥
+# **Lumbar Spine Degenerative Classification** 🏥
 
 ## 📢 **Project Overview**
 
