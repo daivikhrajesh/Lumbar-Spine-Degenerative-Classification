@@ -1,4 +1,4 @@
-# 🎯 **Lumbar Spine Degenerative Classification** 🏥
+#**Lumbar Spine Degenerative Classification** 🏥
 
 ## 📢 **Project Overview**
 
@@ -124,7 +124,7 @@ The following Python libraries are required to run this project:
    pip install -r requirements.txt
    ```
 
-3. Download the dataset from the kaggle competition page and place the files in the `data/` directory.
+3. Download the dataset from the RSNA page and place the files in the `data/` directory.
 
 4. Run the notebooks in `notebooks/` to explore the data, preprocess it, and train the model.
 
