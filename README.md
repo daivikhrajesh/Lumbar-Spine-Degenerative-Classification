@@ -1,10 +1,12 @@
-# Lumbar Spine Degenerative Classification
+# 🎯 **Lumbar Spine Degenerative Classification** 🏥
 
-## Project Overview
+## 📢 **Project Overview**
 
 Low back pain is a prevalent health issue worldwide, affecting millions of people and often resulting in disability. It is frequently caused by degenerative spine conditions, such as the narrowing of the spinal canal, subarticular recesses, or neural foramen, which can compress nerves and lead to pain. Radiologists use Magnetic Resonance Imaging (MRI) scans to assess and diagnose these conditions, which is crucial for deciding the proper course of treatment, including potential surgery.
 
-In collaboration with the **Radiological Society of North America (RSNA)** and the **American Society of Neuroradiology (ASNR)**, this competition aims to explore the potential of artificial intelligence (AI) in detecting and classifying degenerative spine conditions using lumbar spine MRI scans.
+In collaboration with the **Radiological Society of North America (RSNA)** and the **American Society of Neuroradiology (ASNR)**, this project aims to explore the potential of artificial intelligence (AI) in detecting and classifying degenerative spine conditions using lumbar spine MRI scans.
+
+This project demonstrates the power of ensemble learning techniques in medical image classification. By using multiple models, this system classifies medical images into four categories based on severity. The final output is achieved by combining the predictions of different deep learning models to improve accuracy and generalization.
 
 This project involves building an AI model capable of classifying five degenerative conditions of the lumbar spine:
 
@@ -49,6 +51,21 @@ The goal is to predict the severity for each condition at each disc level, where
 - Total size: ~35.34 GB
 - The dataset contains DICOM files for MRI scans, which need to be processed and visualized.
 
+## 💻 **Technologies Used**
+- **Deep Learning Frameworks:** 
+  - PyTorch 🤖
+- **Libraries:** 
+  - `torchvision` 🖼️
+  - `Pandas` 📊
+  - `NumPy` 🔢
+  - `Matplotlib` 📈
+- **Image Processing:**
+  - DICOM Image Loading & Transformation
+  - Data Augmentation and Preprocessing
+- **Model Optimization:**
+  - Hyperparameter Tuning 🔧
+  - Cross-Validation 🔍
+
 ## Project Components
 
 ### Data Preprocessing and Visualization
@@ -76,7 +93,7 @@ A line plot shows the predicted values for Normal/Mild, Moderate, and Severe acr
 
 ## Getting Started
 
-### Prerequisites
+### 🛠️ Prerequisites
 
 The following Python libraries are required to run this project:
 
@@ -92,12 +109,12 @@ The following Python libraries are required to run this project:
 - `plotly.graph_objects`
 - `mpl_toolkits`
 
-### How to Run
+### 🚀 How to Run
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/rsna-lumbar-spine-classification.git
+   git clone https://github.com/daivikhrajesh/rsna-lumbar-spine-classification.git
    cd rsna-lumbar-spine-classification
    ```
 
@@ -111,6 +128,10 @@ The following Python libraries are required to run this project:
 
 4. Run the notebooks in `notebooks/` to explore the data, preprocess it, and train the model.
 
-## Conclusion
+## 📜 **License**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## **Conclusion**
 
 This project demonstrates the use of artificial intelligence in the detection and classification of lumbar spine degenerative conditions. By processing MRI scans, visualizing data, and building a predictive model, it aims to assist radiologists in diagnosing spine conditions more efficiently.
+
